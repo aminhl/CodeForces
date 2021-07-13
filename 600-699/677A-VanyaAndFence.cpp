@@ -2,14 +2,13 @@
 using namespace std;
 
 int main() {
-    int nbFriends, fenceHeight, cmpt = 0;
-    cin >> nbFriends >> fenceHeight;
-    int heightFriends[nbFriends];
-    for (int i = 0; i < nbFriends; i++) {
-        cin >> heightFriends[i];
-        if (heightFriends[i] > fenceHeight)
-            cmpt++;
-        cmpt++;
+  int nbFriends,fienceH,friendsW,cpt=0;
+  cin >> nbFriends >> fienceH;
+    for (int i = 0; i <nbFriends ; ++i) {
+        cin >> friendsW;
+        if(friendsW>fienceH)
+            cpt++;
+        cpt++;
     }
-    cout << cmpt << endl;
+    cout <<cpt <<endl;
 }
