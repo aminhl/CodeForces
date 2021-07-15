@@ -9,7 +9,6 @@ int main() {
         cin >> magnet;
         if (magnet != temp){
             cmpt++;
-            cout << cmpt << endl;
         }
         temp = magnet;
     }
